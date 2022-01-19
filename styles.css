@@ -187,3 +187,17 @@ span {
     align-items: center;
     padding-right: 10px;
 }
+
+.copyrights {
+    background: #303841;
+    width: 100%;
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.copyrights p i {
+    color: #fff;
+}
