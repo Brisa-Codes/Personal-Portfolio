@@ -76,17 +76,15 @@ body {
 .project-wrapper {
     display: flex;
     flex-direction: row;
-}
-
-.projects-container {
-    padding: 0 2.8rem;
+    margin: 1rem;
+    padding-left: 2rem;
 }
 
 .projects-section {
     padding-top: 2rem;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 
 .projects-section h2 {
@@ -97,11 +95,18 @@ body {
     text-align: center;
     background: #303841;
     line-height: 2.5;
-    width: 400px;
+}
+
+span {
+    color: #ff7f50;
 }
 
 .projects-section h2 span {
     display: none;
+}
+
+.projects-section h2 span:hover {
+    display: block;
 }
 
 .projects-section:hover {
@@ -109,6 +114,6 @@ body {
 }
 
 .projects-section img {
-    width: 400px;
+    width: 350px;
     height: 350px;
-}
+} 
