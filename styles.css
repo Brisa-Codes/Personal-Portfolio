@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:wght@200;300;500&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:wght@200;300;500&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500&family=Raleway:wght@700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -27,4 +28,30 @@ body {
     padding: 2rem;
     color: #fff;
     text-decoration: none;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.welcome-section-container {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.welcome-section-container h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.welcome-section-container p {
+    color: #be3144;
+    text-align: center;
+    font-size: 1.2rem;
 }
