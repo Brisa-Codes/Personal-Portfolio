@@ -117,3 +117,28 @@ span {
     width: 350px;
     height: 350px;
 } 
+
+.project-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.2rem;
+}
+
+.project-btn button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    background: #303841;
+    color: #fff;
+    padding: 0.6rem;
+}
+
+.project-btn button i {
+    padding-left: 8px;
+    color: #fff;
+}
+
+.project-btn button:hover {
+    background: #be3144;
+    font-size: 20px;
+}
