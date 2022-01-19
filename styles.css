@@ -142,3 +142,48 @@ span {
     background: #be3144;
     font-size: 20px;
 }
+
+.work {
+    background: #303841;
+    padding: 2rem;
+    border-bottom: 3px solid #be3144;
+}
+
+.work h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1.2rem;
+}
+
+.work p {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.socials .socials-item {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem;
+}
+
+.socials .socials-item h3 {
+    font-weight: 300;
+}
+
+.socials .socials-item i {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
