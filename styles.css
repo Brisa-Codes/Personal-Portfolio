@@ -204,3 +204,97 @@ span {
 .copyrights p i {
     color: #fff;
 }
+
+
+@media screen and (max-width: 480px) {
+    .nav-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 71px;
+    }
+
+    .nav-menu .nav-items a {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #welcome-section {
+        width: 100%;
+        background-color: #303841;
+    }
+
+    .welcome-section-container {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+
+    .welcome-section-container h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .welcome-section-container p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #projects h1 {
+        color: #fff;
+        font-size: 18px;
+        line-height: 35px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-weight: 700;
+        border-bottom: 2px solid #f0f0f0;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    #projects {
+        background-color: #45567d;
+    }
+
+    .project-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-section img {
+        width: 250px;
+        height: 250px;
+    } 
+    
+    .projects-section h2 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        background: #303841;
+        line-height: 2;
+        max-width: 250px;
+    }
+
+    .work h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 1rem;
+    }
+
+    .work p {
+        color: #fff;
+        text-align: center;
+        font-style: italic;
+        font-size: 12px;
+    }
+}
