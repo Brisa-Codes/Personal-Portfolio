@@ -267,14 +267,12 @@ span {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        /* margin: 0.4rem;
-        padding-left: 0.6rem; */
+        margin: 1rem;
     }
 
     .projects-section img {
-        width: 300px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
     } 
     
     .projects-section h2 {
@@ -351,5 +349,4 @@ span {
         flex-direction: column;
         justify-content: center;
     }
-}
 }
