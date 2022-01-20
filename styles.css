@@ -259,6 +259,7 @@ span {
 
     #projects {
         background-color: #45567d;
+        padding: 1.8rem 0;
     }
 
     .project-wrapper {
@@ -282,6 +283,12 @@ span {
         max-width: 250px;
     }
 
+    .project-btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.6rem;
+    }
+
     .work h1 {
         text-align: center;
         font-size: 1.8rem;
@@ -289,6 +296,12 @@ span {
         font-weight: 400;
         font-family: 'Raleway', sans-serif;
         padding-top: 1rem;
+    }
+
+    .work {
+        background: #303841;
+        padding: 0.8rem;
+        border-bottom: 3px solid #be3144;
     }
 
     .work p {
